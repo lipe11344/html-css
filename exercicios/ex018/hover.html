@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex hover</title>
+    <style>
+        body{
+            font: 1em sans-serif;
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: rgb(0, 0, 0);
+            width: 300px;
+            text-align: center;
+        }
+        }
+        div:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>ex.</h1>
+    <p>passe o mouse</p>
+    <div>
+        passe o texto aqui
+        <p>texto escondido</p>
+    </div>
+</body>
+</html>

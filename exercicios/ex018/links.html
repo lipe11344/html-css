@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*
+          #   = id
+          .   = class
+          :   = pseudo class
+          ::  =pseudo element
+          >   = children
+        */
+
+        a{
+            color: aqua;
+            text-decoration: none;
+        }
+        
+        a:visited{
+            color: blue;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .es::after{ 
+            content:' <= ';
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <li class="es"><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">Gustavo Guanabara</a></li>
+</body>
+</html>
