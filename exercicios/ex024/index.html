@@ -8,19 +8,20 @@
 <style>
     table{
         width: 400px;
+        height: 400px;
         padding: 8px;
         border-collapse: collapse;
     }
 
-    tr.linha{
-        background-color: aqua;
-    }
 
     td{
         border: 1px solid black;
+        text-align: center;
+        vertical-align: top;
     }
-    td.dado{
-        background-color: yellow;
+
+    .numero{
+        text-align: right;
     }
 </style>
 <body>
@@ -37,13 +38,13 @@
             <td>b1</td>
             <td>c1</td>
         </tr>
-        <tr class="linha">
+        <tr>
             <td>a2</td>
             <td>b2</td>
             <td>c2</td>
         </tr>
         <tr>
-            <td class="dado">a3</td>
+            <td class="numero">a3</td>
             <td>b3</td>
             <td>c3</td>
         </tr>
@@ -51,13 +52,6 @@
             <td>a4</td>
             <td>b4</td>
             <td>c4</td>
-        </tr>
-        <tr>
-            <td>a5</td>
-            <td>b5</td>
-        </tr>
-        <tr>
-            <td>a6</td>
         </tr>
     </table>
 </body>
