@@ -6,8 +6,8 @@
     <title>Projeto social sozinho</title>
     <style>
         *{
-            margin: 0;
-            padding: 0;
+            margin: 0px;
+            padding: 0px;
         }
         body{
             height: 100vh;
@@ -19,7 +19,7 @@
             overflow-y: hidden;
 
         }
-        div.cel{
+        .cel{
             width: 300px;
             height: 600px;
             background-image: url(imagens/frame-iphone.png);
@@ -41,18 +41,33 @@
             
         }
 
-        a{
-            
-            background-image: url(imagens/logo-github.jpg);
+        .redes{
+            text-align: right;
         }
 
+        div.redes img{
+            width: 50px;
+            margin: 10px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.219);
+            box-sizing: border-box;
+        }
+
+        .redes img:hover{
+            transform: translate(-2px,-2px);
+            border: 2px solid white;
+        }
+        
     </style>
 </head>
 <body>
-    <a href="https://lipe11344.github.io/projeto-poema/" target="frame" alt>Projeto Cordel</a>
-
     <div class="cel">
-        <iframe srcdoc="" name="frame"></iframe>
+        <iframe src="home.html" name="frame">
+            Navegador Incompativel
+        </iframe>
+    </div>
+    <div class="redes"><a href="home.html" target="frame"><img src="imagens/logo-home.jpg" alt="Home"></a><br>
+    <a href="YouTube.html" target="frame"><img src="imagens/logo-youtube.jpg" alt="YouTube"></a><br>
     </div>
 </body>
 </html>
